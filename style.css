@@ -1,0 +1,57 @@
+body {
+  line-height: 1.5rem;
+  font-family: ‘Roboto’, sans-serif;
+}
+
+#navbar {
+  border-right: solid;
+  border-left: solid;
+  border-color: #999;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 23%;
+  /* position: fixed */
+}
+
+.nav-link {
+  list-style: none;
+  line-height: 40px;
+  display: block;
+  padding: 5px;
+  border: 2px solid #ddd;
+}
+
+.highlight {
+  background-color: #eee;
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 5px;
+  width: 100%;
+}
+
+code {
+  font-size: 1.5rem;
+}
+
+header {
+  font-size: 1.5rem;
+  line-height: 50px;
+  padding: 5px 0px;
+}
+#main-doc {
+  margin-left: 25%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+}
+
+#navbar > a {
+  text-decoration: none;
+  color: #000;
+}

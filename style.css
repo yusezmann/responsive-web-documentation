@@ -22,6 +22,10 @@ body {
   border: 2px solid #ddd;
 }
 
+.judul {
+  text-align: center;
+}
+
 .highlight {
   background-color: #eee;
   display: inline-block;
